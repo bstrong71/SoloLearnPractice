@@ -4,6 +4,14 @@ public class Vehicle {
     private String color;
     private double fuelCapacity;
 
+    public Vehicle() {
+        this.setColor("red");
+    }
+
+    public Vehicle(String color) {
+        this.color = color;
+    }
+
     public int getMaxSpeed() {
         return maxSpeed;
     }
