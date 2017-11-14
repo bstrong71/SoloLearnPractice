@@ -7,5 +7,16 @@ public class MyClass {
         // vehicle color will be green
         Vehicle v2 = new Vehicle("green");
         System.out.println("V2 color is " + v2.getColor());
+
+        Person p1 = new Person("John");
+        p1.setAge(30);
+        celebrateBirthday(p1);
+        int previousAge = p1.getAge() - 1;
+        System.out.println("John was " + previousAge + ", but now he's " + p1.getAge() + ".");
+
+    }
+
+    static void celebrateBirthday(Person person) {
+        person.setAge(person.getAge() + 1);
     }
 }
