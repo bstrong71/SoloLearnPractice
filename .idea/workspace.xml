@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a898870c-ed7a-4dc8-9fec-1cf1e3d8bafc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/MyClass.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Counter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Vehicle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/Counter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/Person.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/Vehicle.class" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Counter.java" afterPath="$PROJECT_DIR$/src/samples/Counter.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Person.java" afterPath="$PROJECT_DIR$/src/samples/Person.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Vehicle.java" afterPath="$PROJECT_DIR$/src/samples/Vehicle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/MyClass.class" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/MyClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyClass.java" afterPath="$PROJECT_DIR$/src/MyClass.java" />
     </list>
