@@ -1,3 +1,5 @@
+package samples;
+
 public class Vehicle {
     private int maxSpeed;
     private int wheels;

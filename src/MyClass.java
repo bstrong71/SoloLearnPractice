@@ -1,3 +1,7 @@
+import samples.Counter;
+import samples.Person;
+import samples.Vehicle;
+
 public class MyClass {
 
     public static final double PI = 3.14;
@@ -10,7 +14,7 @@ public class MyClass {
         // vehicle color will be green
         Vehicle car2 = new Vehicle("green");
         System.out.println("Car2 color is " + car2.getColor());
-        // calling static method from Vehicle class without referring to created object
+        // calling static method from samples.Vehicle class without referring to created object
         Vehicle.horn();
 
         // person John created with age and has birthday
@@ -25,13 +29,13 @@ public class MyClass {
         p2.setAge(40);
         System.out.println("Bill's age is still " + p2.getAge() + ".");
 
-        // increments COUNT every time a Counter object is instantiated
+        // increments COUNT every time a samples.Counter object is instantiated
         Counter c1 = new Counter();
         Counter c2 = new Counter();
 
         // two different ways to access COUNT
-        System.out.println("Number of Counter objects created: " + Counter.COUNT);
-        System.out.println("Number of Counter objects created: " + c1.COUNT);
+        System.out.println("Number of samples.Counter objects created: " + Counter.COUNT);
+        System.out.println("Number of samples.Counter objects created: " + c1.COUNT);
 
         // testing out final variable
         System.out.println("Pi is equal to " + PI + ".");
