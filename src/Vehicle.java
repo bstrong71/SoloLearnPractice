@@ -44,7 +44,7 @@ public class Vehicle {
         this.fuelCapacity = fuelCapacity;
     }
 
-    void horn() {
+    public static void horn() {
         System.out.println("Beep-Beep!");
     }
 

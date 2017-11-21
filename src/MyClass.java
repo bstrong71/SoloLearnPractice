@@ -1,12 +1,14 @@
 public class MyClass {
     public static void main(String[] args) {
         // vehicle color will be red
-        Vehicle v1 = new Vehicle();
-        System.out.println("V1 color is " + v1.getColor());
+        Vehicle car1 = new Vehicle();
+        System.out.println("Car1 color is " + car1.getColor());
 
         // vehicle color will be green
-        Vehicle v2 = new Vehicle("green");
-        System.out.println("V2 color is " + v2.getColor());
+        Vehicle car2 = new Vehicle("green");
+        System.out.println("Car2 color is " + car2.getColor());
+        // calling static method from Vehicle class without referring to created object
+        Vehicle.horn();
 
         Person p1 = new Person("John");
         p1.setAge(30);
@@ -20,7 +22,7 @@ public class MyClass {
         // increments COUNT every time a Counter object is instantiated
         Counter c1 = new Counter();
         Counter c2 = new Counter();
-        
+
         // two different ways to access COUNT
         System.out.println("Number of Counter objects created: " + Counter.COUNT);
         System.out.println("Number of Counter objects created: " + c1.COUNT);
