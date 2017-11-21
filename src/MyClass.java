@@ -1,4 +1,7 @@
 public class MyClass {
+
+    public static final double PI = 3.14;
+
     public static void main(String[] args) {
         // vehicle color will be red
         Vehicle car1 = new Vehicle();
@@ -10,14 +13,17 @@ public class MyClass {
         // calling static method from Vehicle class without referring to created object
         Vehicle.horn();
 
+        // person John created with age and has birthday
         Person p1 = new Person("John");
         p1.setAge(30);
         celebrateBirthday(p1);
         int previousAge = p1.getAge() - 1;
         System.out.println("John was " + previousAge + ", but now he's " + p1.getAge() + ".");
 
+        // person Bill created with age
         Person p2 = new Person("Bill");
         p2.setAge(40);
+        System.out.println("Bill's age is still " + p2.getAge() + ".");
 
         // increments COUNT every time a Counter object is instantiated
         Counter c1 = new Counter();
@@ -26,6 +32,9 @@ public class MyClass {
         // two different ways to access COUNT
         System.out.println("Number of Counter objects created: " + Counter.COUNT);
         System.out.println("Number of Counter objects created: " + c1.COUNT);
+
+        // testing out final variable
+        System.out.println("Pi is equal to " + PI + ".");
     }
 
     static void celebrateBirthday(Person person) {
