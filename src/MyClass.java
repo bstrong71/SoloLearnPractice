@@ -17,10 +17,13 @@ public class MyClass {
         Person p2 = new Person("Bill");
         p2.setAge(40);
 
-        // increments count every time a Counter object is instantiated
+        // increments COUNT every time a Counter object is instantiated
         Counter c1 = new Counter();
         Counter c2 = new Counter();
+        
+        // two different ways to access COUNT
         System.out.println("Number of Counter objects created: " + Counter.COUNT);
+        System.out.println("Number of Counter objects created: " + c1.COUNT);
     }
 
     static void celebrateBirthday(Person person) {
