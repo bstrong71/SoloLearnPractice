@@ -1,4 +1,5 @@
 import samples.Counter;
+import samples.Dog;
 import samples.Person;
 import samples.Vehicle;
 
@@ -39,6 +40,11 @@ public class MyClass {
 
         // testing out final variable
         System.out.println("Pi is equal to " + PI + ".");
+
+        // dog inherits from animal
+        Dog dog1 = new Dog();
+        System.out.println("The dog is eating...");
+        dog1.eat();
     }
 
     static void celebrateBirthday(Person person) {
