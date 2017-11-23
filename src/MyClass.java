@@ -1,7 +1,5 @@
-import samples.Counter;
-import samples.Dog;
-import samples.Person;
-import samples.Vehicle;
+import com.sun.prism.shader.Solid_ImagePattern_Loader;
+import samples.*;
 
 public class MyClass {
 
@@ -41,10 +39,17 @@ public class MyClass {
         // testing out final variable
         System.out.println("Pi is equal to " + PI + ".");
 
-        // dog inherits from animal
+        // dog and cat inherit from animal
         Dog dog1 = new Dog();
         System.out.println("The dog is eating...");
         dog1.eat();
+        System.out.println("The dog makes a sound...");
+        dog1.makeSound();
+
+        Cat cat1 = new Cat();
+        System.out.println("The cat makes a sound...");
+        cat1.makeSound();
+        
     }
 
     static void celebrateBirthday(Person person) {
