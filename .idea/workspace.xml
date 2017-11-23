@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a898870c-ed7a-4dc8-9fec-1cf1e3d8bafc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Cat.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/samples/Cat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/MyClass.class" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/MyClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Animal.class" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Animal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Dog.class" afterPath="$PROJECT_DIR$/out/production/SoloJavaCoding/samples/Dog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyClass.java" afterPath="$PROJECT_DIR$/src/MyClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/samples/Animal.java" afterPath="$PROJECT_DIR$/src/samples/Animal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/samples/Dog.java" afterPath="$PROJECT_DIR$/src/samples/Dog.java" />
