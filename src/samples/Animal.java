@@ -1,13 +1,12 @@
 package samples;
 
-public class Animal {
-    protected int legs;
+abstract class Animal {
+    int legs = 0;
 
     public void eat() {
         System.out.println("Nom nom nom");
     }
 
-    public void makeSound() {
-        System.out.println("Grrrrr");
-    }
+    abstract void makeSound();
+
 }

@@ -1,8 +1,10 @@
 package samples;
 
 public class Cat extends Animal {
+    public Cat() {
+        legs = 4;
+    }
 
-    @Override
     public void makeSound() {
         System.out.println("Meow meow meow meow");
     }
