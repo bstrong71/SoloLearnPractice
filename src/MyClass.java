@@ -41,15 +41,20 @@ public class MyClass {
 
         // dog and cat inherit from animal
         Dog dog1 = new Dog();
+        System.out.println("The dog's age is " + dog1.printAge());
         System.out.println("The dog is eating...");
         dog1.eat();
         System.out.println("The dog makes a sound...");
         dog1.makeSound();
 
+
         Cat cat1 = new Cat();
+        System.out.println("The cat's age is " + cat1.printAge());
+        System.out.println("The cat is eating...");
+        cat1.eat();
         System.out.println("The cat makes a sound...");
         cat1.makeSound();
-        
+
     }
 
     static void celebrateBirthday(Person person) {
